@@ -7,13 +7,13 @@
 4. major 회사일 수록 pure한 코드를 쓴다.
 5. **new, createObject, setPrototypeOf, class의 탄생 배경 공부** -> 어떤 차이점이 있는지 확인.
 - new
-<p><img src="./images/new.png" width="500"></p>
+<p><img src="./images/new.png" width="1000"></p>
 
 - createObject
-<p><img src="./images/createObject.png" width="500"></p>
+<p><img src="./images/createObject.png" width="1000"></p>
 
 - setPrototyeOf
-<p><img src="./images/setPrototypeOf.png" width="500"></p>
+<p><img src="./images/setPrototypeOf.png" width="1000"></p>
 
 - class
-<p><img src="./images/class.png" width="500"></p>
+<p><img src="./images/class.png" width="1000"></p>
