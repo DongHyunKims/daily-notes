@@ -43,7 +43,21 @@
 > <img src="../images/git-HEAD.png" width=500 height=400>
 
 ### branch 합치기(merge/rebase)
--
+- git merge 참조
+
+> base : 자신
+
+> 지정한것을 함쳐 새로운 커밋 생성
+
+
+- git rebase 참조
+
+> base :  상대방
+
+> 나를 들어서 상대편에 얹어준다.
+
+> 브렌치가 깔끔해 지지만 충돌 가능성이 있다.
+
 
 
 #### git checkout
@@ -70,3 +84,8 @@
 
 - git branch bb
 - git checkout -b
+- merge 와 rebase의 차이
+
+
+#### 참고 도서
+- progit 2판
