@@ -36,6 +36,15 @@
 
 #### git branch
 - master : 기본 브렌치, 보통 master브렌치에서 많은 작업이 이루어진다.
+- git branch 명령어를 통해 현재 있는 모든 브렌치를 확인 할수 있으면 * 은 현재 자신이 작업하고 있는 브렌치를 의미한다.
+- 현재 HEAD의 위치의 부모 위치를 ^,~ 의 명령어를 통해 알수 있다.
+- ~ 통해 두번째 부모를 찾아 갈수 없다.
+
+> <img src="../images/git-HEAD.png" width=500 height=400>
+
+### branch 합치기(merge/rebase)
+-
+
 
 #### git checkout
 - 원하는 커밋으로 이동이 가능하다.
@@ -52,3 +61,12 @@
 - global도 가능하며 현재 프로젝트의 .git 폴더안에 있는 config파일 설정도 가능하다.
 - tip. alias 옵션을 통해 많이 쓰는 명령어를 편하게 사용 가능하다.
 `git config ‐‐global alias.co commit` 이렇게 commit 명령어를 co만 사용하여 실행 시킬 수 있다.
+
+- 명령어를 줄이고 bash의 alias를 사용하여 완전 간편하게 줄일수도 있지만 본래 사용하는 명령어에 지정하게 되면 덮어쓰기 때문에 조심해야한다.
+
+
+
+#### 더 공부 해야할 부분
+
+- git branch bb
+- git checkout -b
