@@ -1,4 +1,4 @@
-## 170329
+## 170330
 
 #### Java 기초
 
@@ -6,6 +6,7 @@
 - 자바는 컴파일 언어이다.
 - 파일이름과 클래스 이름은 같아야 한다.
 - 자바는 c언어로 부터 나왔다.
+- 자바에서는 **참조**만 담는다.
 
 
 #### 접근 지정자
@@ -167,15 +168,31 @@ public static void main(String[] args) {
 #### 리스트 / 해쉬맵
 - 리스트 : 자바에서 가장 많이 사용하는 자료구조 형태, List는 추상클래스 이므로 인스턴스 화가 되지 않는다.
 ~~~java
-	// ArrayList 생성
-	List<Car> carList = new ArrayList<Car>();
-	Car c = new Car();
-	c.setName("yes");
-	carList.add(c);
-	// 참조값을 복사하여 메모리에 저장하기 때문에 같다.
-	Car x = carList.get(0);
-	// x == c  true!! 
+// ArrayList 생성
+List<Car> carList = new ArrayList<Car>();
+Car c = new Car();
+c.setName("yes");
+carList.add(c);
+// 참조값을 복사하여 메모리에 저장하기 때문에 같다.
+Car x = carList.get(0);
+// x == c  true!! 
+~~~
+- 해쉬맵 : key와 value로 이루어진 자료구조 형태
+~~~Java
+HashMap<String, Integer> a = new HashMap<String, Integer>();
+a.put("one", 1);
+a.put("two", 2);
+a.put("three", 3);
+a.put("four", 4);
 ~~~
 
+#### 제네릭
+- 제네릭은 들어가는 객체가 어떤 타입인지 나중에 알려준다. 인스턴스를 생성 할때 어떤 객체를 넣을지 정해진다. 
+- 아무 클래스나 컬렉션에 넣어서 사용할수 있도록 만들어준다.
+> <img src="https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/516/2136.png" />
+
+- `List<Car> carList = new ArrayList<Car>();` 인스턴스화를 할때 안에 들어갈 형태를  아무거나 담을 수 있게 해준다.
+- 제네릭을 만들수 있어야 한다.
 
 
+#### 메모리 구조
