@@ -69,7 +69,11 @@ if (!String.prototype.startsWith) {
 
 2. endsWith()
 
+   [추후작성]
+
 3. includes()
+
+   [추후작성]
 
 #### Array enhancements - for/of
 1. for in 은 자신이 가지고 있지 않은 것도 순회한다.
@@ -506,6 +510,12 @@ var myHealth = new Health("달리기", "23:11"); myHealth.showHealth();
 - 예전엔 브라우저에서도 require.js를 통해 의존성을 관리했다.
 
 
+#### 결론
+- 결과적으로 가장 가볍게 개발 하는 것이 좋다.
+- 최대한 라이브러리를 가져다 쓰지 않는 것이 좋다.
+- 의존성은 최대한 없애자!
+- 모바일에서는 ES6를 사용하면 좋다.
+- 기존의 문법과 어떤 것이 다른지 잘 알아야 한다.
 
 #### Tip
 참고할 만한 동영상 : https://www.youtube.com/watch?v=8aGhZQkoFbQ
