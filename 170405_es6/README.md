@@ -445,7 +445,7 @@ sum(3,10);
 - rest operator 를 활용해 임의의 인자를 배열형태로 받을 수 있다.
 - rest parameter는 진짜 배열임으로 arguments를 사용해야 하는 상황에서 는 더 좋다.
 - arguments 사용은 권장 하지 않는다.
-~~~
+~~~Javascript
 //...arg을 사용하면 array like obj가 아닌 array를 제공한다.
 function checkNumber(...arg) {
   //every : 모두 다 true이면 true 반환, some : 하나라도 true이면 true 반환
