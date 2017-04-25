@@ -57,10 +57,7 @@ const BasicExample = () => (
 - https://reacttraining.com/react-router/web/guides/quick-start
 
 - Route component
- - Route 컴포넌트는 popstate가 발생할때마다 자신의 path정보와 일치하는 경
-   우(매칭과정을거쳐)
-   자신이 가지고 있는 component를(Home, About,Topics) 렌더링
-   (React.createElement())한다
+- Route 컴포넌트는 popstate가 발생할때마다 자신의 path정보와 일치하는 경우(매칭과정을거쳐) 자신이 가지고 있는 component를(Home, About,Topics) 렌더링 (React.createElement())한다
 ~~~javascript
 const BasicExample = () => (
 <Router>
@@ -72,7 +69,7 @@ const BasicExample = () => (
 ~~~
 
 - Link Component
- - pushState에 to로 전달받은 path와 필요한 데이터를(state) 저장하는 역할.
+- pushState에 to로 전달받은 path와 필요한 데이터를(state) 저장하는 역할.
 ~~~javascript
 const BasicExample = () => (
 <Router>
@@ -90,6 +87,7 @@ const BasicExample = () => (
 - 개발 후에 필요한 부분에 `<Link />`, `<Route />`가 가장 중요하다.
 - 인증 쪽 개발도 할 수 있다.
 - history api를 이해 하는 것이 중요하다.
- - https://tylermcginnis.com/build-your-own-react-router-v4/ 
+  - https://tylermcginnis.com/build-your-own-react-router-v4/ 
 - state는 함수가 답이다.
- - https://www.vobour.com/book/view/MPTQLpzxAHxzywcBc 
+  - https://www.vobour.com/book/view/MPTQLpzxAHxzywcBc 
+- version 1 부터 따라 만들어 보는 것이 좋다.
