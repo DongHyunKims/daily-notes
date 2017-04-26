@@ -1,4 +1,4 @@
-## historyAPI
+## 170424 historyAPI
 
 - 브라우저는 새로운 http 응답을 받은 웹페이지를 렌더링 할때마다 history를 남긴다.
 - SPA 구조는 새로운 페이지 전체를 렌더링 하지 않고 부분적인 component를 다시 렌더링 한다.
