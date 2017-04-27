@@ -1,6 +1,6 @@
 ## 170425 Mistake Log
 
-### 실수
+### 고민
 1. CSS 세로정렬
 
 html
