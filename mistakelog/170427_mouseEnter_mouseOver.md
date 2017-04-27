@@ -8,14 +8,14 @@ mouseover 이벤트는 이벤트 버블링이 적용되는 이벤트이기 때�
 반면에, mouseenter 이벤트는  element 객체의 내부에 있는지 외부에 있는지만 따지기 때문에 이벤트가 한 번만 발생시킨다. mouseleave도 마찬가지이다.
 
 html
-~~~
+~~~html
 <div class="outer">
     <div class="inner"></div>
 </div>
 ~~~
 
 css
-~~~
+~~~css
 body {
     width: 500px;
     margin: 30px auto;
@@ -36,7 +36,7 @@ body {
 ~~~
 
 javascript
-~~~
+~~~javascript
 $('.outer')
     .mouseover(function(){
         $('body').append('<p>마우스오버가 발생했습니다.</p>')
